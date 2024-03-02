@@ -1,20 +1,22 @@
-fun main(aras: Array<String=) 1
- options = array0f("Камень", "Ножницы", "Бумага")
-Mall
-val
-        geneChoice = computerChoiceGenerator(options)
-asenthaice = getPlayerChoice(options)
-fun getPLayerChoice(optionsParam: Array<String>): String t
-print( Ваедите, один из вариантов -)
-for Citem in optionsParam)
-printC$item-）
-printini
-vaL userInput = readLine()
-17 (userInput |= null && userInput in optionsParam) (
-return userInput
-ト
-return
-"todo"
-fun
-        computerChoiceGenerator (optionsParam: Array<String>) =
-    optionsParam[ (Math. random() * optionsParam. size) .toInt)] 1/8.0 do 1.00
+fun main(aras: Array<String>) {
+    val options = array0f("Камень", "Ножницы", "Бумага")
+
+    val geneChoice = computerChoiceGenerator(options)
+    val userChoice = getPlayerChoice(options)
+}
+fun getPLayerChoice(optionsParam: Array<String>): String {
+    print(" Ваедите, один из вариантов ")
+
+    for (item in optionsParam)
+        print("$item ")
+    println(".")
+
+val userInput = readLine()
+
+    if  (userInput != null && userInput in optionsParam) {
+        return userInput
+    }
+return "todo"
+}
+fun computerChoiceGenerator (optionsParam: Array<String>) =
+    optionsParam[ (Math. random() * optionsParam. size) .toInt()] //8.0 do 1.00
