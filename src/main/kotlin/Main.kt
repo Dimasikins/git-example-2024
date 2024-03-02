@@ -1,16 +1,20 @@
-package org.example
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
-
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }g
-}
+fun main(aras: Array<String=) 1
+ options = array0f("Камень", "Ножницы", "Бумага")
+Mall
+val
+        geneChoice = computerChoiceGenerator(options)
+asenthaice = getPlayerChoice(options)
+fun getPLayerChoice(optionsParam: Array<String>): String t
+print( Ваедите, один из вариантов -)
+for Citem in optionsParam)
+printC$item-）
+printini
+vaL userInput = readLine()
+17 (userInput |= null && userInput in optionsParam) (
+return userInput
+ト
+return
+"todo"
+fun
+        computerChoiceGenerator (optionsParam: Array<String>) =
+    optionsParam[ (Math. random() * optionsParam. size) .toInt)] 1/8.0 do 1.00
