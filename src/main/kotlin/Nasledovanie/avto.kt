@@ -1,0 +1,4 @@
+package Nasledovanie
+
+class avto {
+}

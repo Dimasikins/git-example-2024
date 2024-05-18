@@ -1,4 +1,4 @@
-package nasledovanie
+package Nasledovanie
 
 class avto {
 }
